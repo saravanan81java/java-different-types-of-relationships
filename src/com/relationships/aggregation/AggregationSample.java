@@ -11,7 +11,7 @@ public class AggregationSample {
 		library.addBook(book1);
 		library.addBook(book2);
 		
-		System.out.println("Book Count : " + library.getBook().size());
+		System.out.println("Book Count : [" + library.getBook().size()+"]");
 	}	
 
 }
